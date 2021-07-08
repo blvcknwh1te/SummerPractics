@@ -11,10 +11,15 @@ namespace Hostel.Data
     {
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<Admin> Admins { get; set; }
 
         public AppDBContext()
         {
             Database.EnsureCreated();
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=HostelDB;Trusted_Connection=True;");
         }
     }
 }

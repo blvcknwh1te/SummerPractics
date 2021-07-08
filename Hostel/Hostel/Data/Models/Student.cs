@@ -19,5 +19,7 @@ namespace Hostel.Data.Models
         public int OrderNumber { get; set; }
         public DateTime DateIn { get; set; }
         public DateTime DateOut { get; set; }
+        public string Login { get; set; }
+        public string Password { get; set; }
     }
 }
