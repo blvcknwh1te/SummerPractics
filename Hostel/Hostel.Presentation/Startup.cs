@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Hostel.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace Hostel.Presentation
 {
@@ -23,6 +25,12 @@ namespace Hostel.Presentation
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContextPool<AppDBContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("HostelDBConnection"));
+            });
+
+            //services.AddSingleton
             services.AddRazorPages();
         }
 

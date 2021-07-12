@@ -1,0 +1,12 @@
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\bin\Debug\net5.0\Hostel.Models.deps.json
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\bin\Debug\net5.0\Hostel.Models.dll
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\bin\Debug\net5.0\ref\Hostel.Models.dll
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\bin\Debug\net5.0\Hostel.Models.pdb
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.csproj.AssemblyReference.cache
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.AssemblyInfoInputs.cache
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.AssemblyInfo.cs
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.csproj.CoreCompileInputs.cache
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.dll
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\ref\Hostel.Models.dll
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.pdb
