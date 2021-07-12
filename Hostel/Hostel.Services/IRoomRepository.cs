@@ -9,6 +9,9 @@ namespace Hostel.Services
 {
     interface IRoomRepository
     {
-        IEnumerable<Room> GetAllRooms();
+        public IEnumerable<Room> GetAllRooms();
+
+        public Room Add(Room newRoom);
+        public Room Delete(int id);
     }
 }

@@ -9,6 +9,9 @@ namespace Hostel.Services
 {
     interface IStudentRepository
     {
-        IEnumerable<Student> GetAllStudents();
+        public IEnumerable<Student> GetAllStudents();
+
+        public Student Add(Student newStudent);
+        public Student Delete(int id);
     }
 }
