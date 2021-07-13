@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I9Wudwilr3Q1w6a8OYEH9dfPSp/3EeU9vOaU0OS4Y2nsQGlvyv+LyUwLCYj++5DFqHWsVixiMUaqTDNtUD9+rA==",
+  "dgSpecHash": "2MjxinkTDWty06EX3gTxm+ZL86hrfqtiZgvN1HljDV7NlfjHzp+ueAcKmwJy3WA3D1ak15irpUmJvlKTkUNb8Q==",
   "success": true,
-  "projectFilePath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Presentation\\Hostel.Presentation.csproj",
+  "projectFilePath": "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Presentation\\Hostel.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artem\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\artem\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.7\\microsoft.aspnetcore.mvc.razor.extensions.5.0.7.nupkg.sha512",

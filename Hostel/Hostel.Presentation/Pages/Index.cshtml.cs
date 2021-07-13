@@ -12,6 +12,8 @@ namespace Hostel.Presentation.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
+        public string Message { get; set; }
+
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
@@ -19,7 +21,7 @@ namespace Hostel.Presentation.Pages
 
         public void OnGet()
         {
-
+            Message = "Hello!";
         }
     }
 }

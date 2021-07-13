@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1R1ujtJ+SinIjXfE+JO6xkgxaYxx81kKzCOSFWMOhEfCMmCSbKEOBXu0SklAt1WODZl6nxC7YclMEdUeSofxNg==",
+  "dgSpecHash": "gRBedbakCgpIpykZI3HDN5NkjLI4+1tmXaQgMkENyMuFGJHJMfJ+unnrn7pfwyPL4eGZpa47Z6ZDeJam4J9hZQ==",
   "success": true,
-  "projectFilePath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj",
+  "projectFilePath": "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artem\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\artem\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

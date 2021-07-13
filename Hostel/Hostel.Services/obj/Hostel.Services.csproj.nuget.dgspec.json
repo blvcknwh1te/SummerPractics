@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj": {}
+    "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj": {}
   },
   "projects": {
-    "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj": {
+    "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj",
+        "projectUniqueName": "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj",
         "projectName": "Hostel.Models",
-        "projectPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj",
+        "projectPath": "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj",
         "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-        "outputPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\obj\\",
+        "outputPath": "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj": {
+    "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj",
+        "projectUniqueName": "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj",
         "projectName": "Hostel.Services",
-        "projectPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj",
+        "projectPath": "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj",
         "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-        "outputPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\obj\\",
+        "outputPath": "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -90,8 +90,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj": {
-                "projectPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj"
+              "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj": {
+                "projectPath": "D:\\Artyom\\Studing\\Summer\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj"
               }
             }
           }
