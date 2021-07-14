@@ -1,0 +1,86 @@
+﻿@page
+@model Hostel.Presentation.Pages.Students.StudentsModel
+@{
+    ViewData["Title"] = "Студенты";
+}
+
+<!--Название таблицы-->
+<div class="students-header">
+    <h1 class="students-header-name">Студенты</h1> 
+    <footer class="border-top footer"> </footer>
+</div>
+
+
+<!--Таблица-->
+<div class="students-table-container">
+    <table>
+        <!--Шапка таблицы-->
+        <tr class="students-table-header">
+            <th>№ этажа</th>
+            <th>№ комнаты</th>
+            <th>Блок</th>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Отчество</th>
+            <th>Страна</th>
+            <th>Факультет</th>
+            <th>Курс</th>
+            <th>Группа</th>
+            <th>Номер приказа</th>
+            <th>Дата заселения</th>
+            <th>Дата выселения</th>
+            <th style="min-width:180px;">Номер телефона</th>
+        </tr>
+
+        <!--Данные таблицы-->
+
+        @{
+            int i = 0;
+            string n="";
+            string dateTimeIn="";
+            string dateTimeOut="";
+        }
+        @foreach (var student in Model.Students)
+        {
+            <tr class="students-table-row">
+                @{
+                    @*<td>@Html.DisplayFor(modelItem => student.Room.Floor) </td>*@ //Floor
+
+                    <td style="text-align:center;">
+                        <a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit" >@Model.floors[i]</a>
+                    </td>        
+                    <td style="text-align:center;"><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Model.rooms[i]</a></td>
+                    <td style="text-align:center;"><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Model.blocks[i]</a></td>
+                    <td><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Html.DisplayFor(modelItem => student.Surname)</a> </td>
+                    <td><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Html.DisplayFor(modelItem => student.FirstName)</a> </td>
+                    <td><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Html.DisplayFor(modelItem => student.SecondName)</a> </td>
+                    <td>@Html.DisplayFor(modelItem => student.Nationality) </td>
+                    <td>@Html.DisplayFor(modelItem => student.Faculty) </td>
+                    <td>@Html.DisplayFor(modelItem => student.Course) </td>
+                    <td>@Html.DisplayFor(modelItem => student.Group) </td>
+                    <td>@Html.DisplayFor(modelItem => student.OrderNumber) </td>
+                    { 
+                        dateTimeIn = student.DataIn.ToShortDateString();
+                        dateTimeOut = student.DataOut.ToShortDateString();
+                    }
+                    @*<td>@Html.DisplayFor(modelItem => student.DataIn) </td>*@
+                    @*<td>@Html.DisplayFor(modelItem => student.DataOut) </td>*@
+                    <td>@dateTimeIn</td>
+                    <td>@dateTimeOut</td>
+                    <td style="text-align: center;">@{
+                        n = "+375-44-1234" + Model.rooms[i];
+                        }
+                        @n
+                    </td>
+
+
+                }
+            </tr>
+            i++;
+        }
+    </table>
+</div>
+
+
+
+<h3>count: @Model.Students.Count() </h3>

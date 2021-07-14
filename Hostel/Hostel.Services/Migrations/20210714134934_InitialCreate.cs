@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Hostel.Services.Migrations
 {
-    public partial class InitDB : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -33,7 +33,7 @@ namespace Hostel.Services.Migrations
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     SecondName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Nationality = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Sex = table.Column<string>(type: "nvarchar(1)", nullable: false),
+                    Gender = table.Column<string>(type: "nvarchar(1)", nullable: false),
                     Faculty = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Course = table.Column<int>(type: "int", nullable: false),
                     Group = table.Column<int>(type: "int", nullable: false),

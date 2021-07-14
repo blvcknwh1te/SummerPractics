@@ -7,7 +7,7 @@ using Hostel.Models;
 
 namespace Hostel.Services
 {
-    interface IRoomRepository
+    public interface IRoomRepository
     {
         public IEnumerable<Room> GetAllRooms();
 

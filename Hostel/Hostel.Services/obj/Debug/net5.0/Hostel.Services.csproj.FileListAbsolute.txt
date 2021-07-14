@@ -34,3 +34,21 @@ D:\Artyom\Studing\Summer\SummerPractics\Hostel\Hostel.Services\bin\Debug\net5.0\
 D:\Artyom\Studing\Summer\SummerPractics\Hostel\Hostel.Services\bin\Debug\net5.0\Hostel.Models.pdb
 D:\Artyom\Studing\Summer\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\Hostel.Services.csproj.CopyComplete
 D:\Artyom\Studing\Summer\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\Hostel.Services.genruntimeconfig.cache
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\bin\Debug\net5.0\Hostel.Services.deps.json
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\bin\Debug\net5.0\Hostel.Services.runtimeconfig.json
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\bin\Debug\net5.0\Hostel.Services.runtimeconfig.dev.json
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\bin\Debug\net5.0\Hostel.Services.dll
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\bin\Debug\net5.0\ref\Hostel.Services.dll
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\bin\Debug\net5.0\Hostel.Services.pdb
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\bin\Debug\net5.0\Hostel.Models.dll
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\bin\Debug\net5.0\Hostel.Models.pdb
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\Hostel.Services.csprojAssemblyReference.cache
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\Hostel.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\Hostel.Services.AssemblyInfoInputs.cache
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\Hostel.Services.AssemblyInfo.cs
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\Hostel.Services.csproj.CoreCompileInputs.cache
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\Hostel.Services.csproj.CopyComplete
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\Hostel.Services.dll
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\ref\Hostel.Services.dll
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\Hostel.Services.pdb
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Services\obj\Debug\net5.0\Hostel.Services.genruntimeconfig.cache

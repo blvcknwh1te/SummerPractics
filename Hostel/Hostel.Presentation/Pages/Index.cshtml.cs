@@ -11,7 +11,6 @@ namespace Hostel.Presentation.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-
         public string Message { get; set; }
 
         public IndexModel(ILogger<IndexModel> logger)

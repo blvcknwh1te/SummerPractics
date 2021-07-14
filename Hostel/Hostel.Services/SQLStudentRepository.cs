@@ -40,5 +40,10 @@ namespace Hostel.Services
         {
             return _context.Students;
         }
+
+        public void ClearDB()
+        {
+            _context.Database.EnsureDeleted();
+        }
     }
 }

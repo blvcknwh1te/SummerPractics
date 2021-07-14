@@ -30,7 +30,8 @@ namespace Hostel.Presentation
                 options.UseSqlServer(Configuration.GetConnectionString("HostelDBConnection"));
             });
 
-            //services.AddSingleton
+            //services.AddSingleton<IStudentRepository, SQLStudentRepository>();
+            services.AddTransient<IStudentRepository, SQLStudentRepository>();
             services.AddRazorPages();
         }
 
@@ -57,7 +58,7 @@ namespace Hostel.Presentation
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapRazorPages();  
             });
         }
     }

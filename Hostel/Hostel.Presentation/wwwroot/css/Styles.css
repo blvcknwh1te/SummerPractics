@@ -1,0 +1,77 @@
+﻿body {
+}
+
+<style >
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+</style >
+
+
+
+/*//Заголовок страницы//*/
+.students-header {
+    margin: 5px;
+}
+
+.students-header-name {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-align: center;
+    font-size: 48px;
+    width:auto;
+}
+
+
+
+/*
+//Таблица
+*/
+.students-table-container {
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    border-collapse: separate;
+}
+
+/*Шапка таблицы*/
+.students-table-header {
+    width: 100%;
+    text-align: center;
+}
+/*
+//Элементы таблицы
+*/
+
+
+.students-table-row{
+    margin: 15px;
+    width:100%;
+    vertical-align:top;
+
+}
+
+th, td {
+    padding: 10px 8px;
+    border-right: 1px groove #2664a8;
+    border-left: 1px groove #2664a8;
+}
+th {
+    background: rgba(83, 155, 209, 0.70);
+    border-bottom: 2px solid #1d1d1d;
+    vertical-align: bottom;
+    font-weight: 600;
+}
+td {
+    
+    background: rgba(211, 242, 255, 0.80);
+    font-weight: 100;
+    padding: 8px 8px;
+    transition: .1s linear; 
+    border-bottom: 1px groove #2664a8;
+}
+tr:hover td {
+    color: rgba(139, 59, 225, 0.87);
+}

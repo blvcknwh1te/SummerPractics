@@ -12,7 +12,7 @@ namespace Hostel.Services
     {
         public AppDBContext(DbContextOptions<AppDBContext> options) : base(options)
         {
-
+            Database.EnsureCreated();
         }
 
         public DbSet<Room> Rooms { get; set; }

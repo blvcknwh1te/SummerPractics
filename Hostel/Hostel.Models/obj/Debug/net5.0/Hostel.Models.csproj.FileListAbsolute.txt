@@ -10,3 +10,15 @@ E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Mo
 E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.dll
 E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\ref\Hostel.Models.dll
 E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.pdb
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\bin\Debug\net5.0\Hostel.Models.deps.json
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\bin\Debug\net5.0\Hostel.Models.dll
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\bin\Debug\net5.0\ref\Hostel.Models.dll
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\bin\Debug\net5.0\Hostel.Models.pdb
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.AssemblyInfoInputs.cache
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.AssemblyInfo.cs
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.csproj.CoreCompileInputs.cache
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.dll
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\ref\Hostel.Models.dll
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.pdb
+D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Models\obj\Debug\net5.0\Hostel.Models.csprojAssemblyReference.cache
