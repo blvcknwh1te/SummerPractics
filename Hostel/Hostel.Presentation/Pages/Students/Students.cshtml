@@ -16,19 +16,13 @@
     <table>
         <!--Шапка таблицы-->
         <tr class="students-table-header">
-            <th>№ этажа</th>
-            <th>№ комнаты</th>
-            <th>Блок</th>
-            <th>Фамилия</th>
-            <th>Имя</th>
-            <th>Отчество</th>
+            <th>Ф.И.О.</th>
+            <th>Пол</th>
             <th>Страна</th>
             <th>Факультет</th>
             <th>Курс</th>
             <th>Группа</th>
-            <th>Номер приказа</th>
-            <th>Дата заселения</th>
-            <th>Дата выселения</th>
+            
             <th style="min-width:180px;">Номер телефона</th>
         </tr>
 
@@ -42,40 +36,30 @@
         }
         @foreach (var student in Model.Students)
         {
-            <tr class="students-table-row">
-                @{
-                    @*<td>@Html.DisplayFor(modelItem => student.Room.Floor) </td>*@ //Floor
-
-                    <td style="text-align:center;">
-                        <a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit" >@Model.floors[i]</a>
-                    </td>        
-                    <td style="text-align:center;"><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Model.rooms[i]</a></td>
-                    <td style="text-align:center;"><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Model.blocks[i]</a></td>
-                    <td><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Html.DisplayFor(modelItem => student.Surname)</a> </td>
-                    <td><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Html.DisplayFor(modelItem => student.FirstName)</a> </td>
-                    <td><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Html.DisplayFor(modelItem => student.SecondName)</a> </td>
-                    <td>@Html.DisplayFor(modelItem => student.Nationality) </td>
-                    <td>@Html.DisplayFor(modelItem => student.Faculty) </td>
-                    <td>@Html.DisplayFor(modelItem => student.Course) </td>
-                    <td>@Html.DisplayFor(modelItem => student.Group) </td>
-                    <td>@Html.DisplayFor(modelItem => student.OrderNumber) </td>
-                    { 
-                        dateTimeIn = student.DataIn.ToShortDateString();
-                        dateTimeOut = student.DataOut.ToShortDateString();
-                    }
-                    @*<td>@Html.DisplayFor(modelItem => student.DataIn) </td>*@
-                    @*<td>@Html.DisplayFor(modelItem => student.DataOut) </td>*@
-                    <td>@dateTimeIn</td>
-                    <td>@dateTimeOut</td>
-                    <td style="text-align: center;">@{
-                        n = "+375-44-1234" + Model.rooms[i];
-                        }
-                        @n
-                    </td>
+    <tr class="students-table-row">
+        @{
+            @*<td>@Html.DisplayFor(modelItem => student.Room.Floor) </td>*@ //Floor
 
 
-                }
-            </tr>
+            <td><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Html.DisplayFor(modelItem => student.FullName)</a> </td>
+            <td>@Html.DisplayFor(modelItem => student.Gender) </td>
+            <td>@Html.DisplayFor(modelItem => student.Nationality) </td>
+            <td>@Html.DisplayFor(modelItem => student.Faculty) </td>
+            <td>@Html.DisplayFor(modelItem => student.Course) </td>
+            <td>@Html.DisplayFor(modelItem => student.Group) </td>
+            <td>@Html.DisplayFor(modelItem => student.PhoneNumber) </td>
+
+            {
+                dateTimeIn = student.DataIn.ToShortDateString();
+                dateTimeOut = student.DataOut.ToShortDateString();
+            }
+            @*<td>@Html.DisplayFor(modelItem => student.DataIn) </td>*@
+            @*<td>@Html.DisplayFor(modelItem => student.DataOut) </td>*@
+            
+
+
+        }
+    </tr>
             i++;
         }
     </table>

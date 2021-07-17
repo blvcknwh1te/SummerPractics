@@ -9,11 +9,9 @@ namespace Hostel.Models
 
         }
 
-        public Student(string surname, string firstName, string secondName, string nationality, char gender, string faculty, int course, int group, int orderNumber, DateTime dataIn, DateTime dataOut, Room room)
+        public Student(string fullname, string nationality, char gender, string faculty, int course, int group, int orderNumber, DateTime dataIn, DateTime dataOut)
         {
-            Surname = surname;
-            FirstName = firstName;
-            SecondName = secondName;
+            FullName = fullname;
             Nationality = nationality;
             Gender = gender;
             Faculty = faculty;
@@ -22,15 +20,13 @@ namespace Hostel.Models
             OrderNumber = orderNumber;
             DataIn = dataIn;
             DataOut = dataOut;
-            Room = room;
         }
 
         public int Id { get; set; }
-        public string Surname { get; set; }
-        public string FirstName { get; set; }
-        public string SecondName { get; set; }
+        public string FullName { get; set; }
         public string Nationality { get; set; }
         public char Gender { get; set; }
+        public string PhoneNumber { get; set; }
         public string Faculty { get; set; }
         public int Course { get; set; }
         public int Group { get; set; }

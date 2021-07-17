@@ -1173,3 +1173,5 @@ D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Prese
 D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Presentation\obj\Debug\net5.0\Hostel.Presentation.genruntimeconfig.cache
 D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Presentation\obj\Debug\net5.0\Razor\Pages\Students\Students.cshtml.g.cs
 D:\Vlad\УЧЕБА\Практика\Hostel 13\SummerPractics\Hostel\Hostel.Presentation\obj\Debug\net5.0\Razor\Pages\Students\StudentFillForm.cshtml.g.cs
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Presentation\obj\Debug\net5.0\Razor\Pages\Students\StudentFillForm.cshtml.g.cs
+E:\Artyom\Studing\SummerPractics\Hostel\Hostel.Presentation\obj\Debug\net5.0\Razor\Pages\Students\Students.cshtml.g.cs

@@ -40,5 +40,10 @@ namespace Hostel.Services
         {
             return _context.Rooms;
         }
+
+        public void Fill()
+        {
+
+        }
     }
 }

@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Presentation\\Hostel.Presentation.csproj": {}
+    "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Presentation\\Hostel.Presentation.csproj": {}
   },
   "projects": {
-    "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj": {
+    "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj",
+        "projectUniqueName": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj",
         "projectName": "Hostel.Models",
-        "projectPath": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj",
-        "packagesPath": "C:\\Users\\ALPHA\\.nuget\\packages\\",
-        "outputPath": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Models\\obj\\",
+        "projectPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj",
+        "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
+        "outputPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ALPHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,24 +58,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Presentation\\Hostel.Presentation.csproj": {
+    "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Presentation\\Hostel.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Presentation\\Hostel.Presentation.csproj",
+        "projectUniqueName": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Presentation\\Hostel.Presentation.csproj",
         "projectName": "Hostel.Presentation",
-        "projectPath": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Presentation\\Hostel.Presentation.csproj",
-        "packagesPath": "C:\\Users\\ALPHA\\.nuget\\packages\\",
-        "outputPath": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Presentation\\obj\\",
+        "projectPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Presentation\\Hostel.Presentation.csproj",
+        "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
+        "outputPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ALPHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,11 +90,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj": {
-                "projectPath": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj"
+              "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj": {
+                "projectPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj"
               },
-              "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj": {
-                "projectPath": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj"
+              "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj": {
+                "projectPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj"
               }
             }
           }
@@ -136,24 +138,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj": {
+    "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj",
+        "projectUniqueName": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj",
         "projectName": "Hostel.Services",
-        "projectPath": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj",
-        "packagesPath": "C:\\Users\\ALPHA\\.nuget\\packages\\",
-        "outputPath": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Services\\obj\\",
+        "projectPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\Hostel.Services.csproj",
+        "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
+        "outputPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ALPHA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -167,8 +170,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj": {
-                "projectPath": "D:\\Vlad\\УЧЕБА\\Практика\\Hostel 13\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj"
+              "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj": {
+                "projectPath": "E:\\Artyom\\Studing\\SummerPractics\\Hostel\\Hostel.Models\\Hostel.Models.csproj"
               }
             }
           }
@@ -213,7 +216,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
