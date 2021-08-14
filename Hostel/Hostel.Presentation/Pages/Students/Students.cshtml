@@ -33,19 +33,13 @@
     <table>
         <!--Шапка таблицы-->
         <tr class="students-table-header">
-            <th>№ этажа</th>
-            <th>№ комнаты</th>
-            <th>Блок</th>
-            <th>Фамилия</th>
-            <th>Имя</th>
-            <th>Отчество</th>
+            <th>Ф.И.О.</th>
+            <th>Пол</th>
             <th>Страна</th>
             <th>Факультет</th>
             <th>Курс</th>
             <th>Группа</th>
-            <th>Номер приказа</th>
-            <th>Дата заселения</th>
-            <th>Дата выселения</th>
+            
             <th style="min-width:180px;">Номер телефона</th>
         </tr>
 
@@ -59,10 +53,12 @@
         }
         @foreach (var student in Model.Students)
         {
-            <tr class="students-table-row">
-                @{
-                    @*<td>@Html.DisplayFor(modelItem => student.Room.Floor) </td>*@ //Floor
+    <tr class="students-table-row">
+        @{
+            @*<td>@Html.DisplayFor(modelItem => student.Room.Floor) </td>*@ //Floor
 
+
+<<<<<<< HEAD
                     <td style="text-align:center;">
                         <a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Model.floors[i]</a>
                     </td>
@@ -91,10 +87,27 @@
                     }
                     @n
                 </td>
+=======
+            <td><a asp-page="/Students/StudentFillForm" asp-route-Id="@student.Id" style="color:inherit">@Html.DisplayFor(modelItem => student.FullName)</a> </td>
+            <td>@Html.DisplayFor(modelItem => student.Gender) </td>
+            <td>@Html.DisplayFor(modelItem => student.Nationality) </td>
+            <td>@Html.DisplayFor(modelItem => student.Faculty) </td>
+            <td>@Html.DisplayFor(modelItem => student.Course) </td>
+            <td>@Html.DisplayFor(modelItem => student.Group) </td>
+            <td>@Html.DisplayFor(modelItem => student.PhoneNumber) </td>
+>>>>>>> 853613d3939dfc4418667e242d012d4568409a1e
+
+            {
+                dateTimeIn = student.DataIn.ToShortDateString();
+                dateTimeOut = student.DataOut.ToShortDateString();
+            }
+            @*<td>@Html.DisplayFor(modelItem => student.DataIn) </td>*@
+            @*<td>@Html.DisplayFor(modelItem => student.DataOut) </td>*@
+            
 
 
-                }
-            </tr>
+        }
+    </tr>
             i++;
         }
     </table>
