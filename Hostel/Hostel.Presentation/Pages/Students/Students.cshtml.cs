@@ -13,7 +13,7 @@ namespace Hostel.Presentation.Pages.Students
     {
         private readonly IStudentRepository _studentsDB;
 
-
+        public string Message { get; set; }
 
         public List<Student> tempStudents = new List<Student>()
         {
@@ -47,6 +47,7 @@ namespace Hostel.Presentation.Pages.Students
         {
             Students = _studentsDB.GetAllStudents();
             if (Students.Count() < 1) CreateMockModel();
+            Message = "Table";
         } 
 
         public void AddStudents(Student student)
@@ -63,6 +64,7 @@ namespace Hostel.Presentation.Pages.Students
                 AddStudents(tempStudents[i]);
             }
         }
+        
 
     }
 }
